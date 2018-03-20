@@ -13,8 +13,11 @@ public class LoggerTest {
 
     @Test
     public void test1(){
-
+        String username = "test";
+        String password = "test0";
+        log.error("error");
         log.debug("debug");
         log.info("info");
+        log.info("username:{}, password:{}.",username,password);
     }
 }
