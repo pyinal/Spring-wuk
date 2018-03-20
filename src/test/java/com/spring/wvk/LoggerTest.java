@@ -13,7 +13,7 @@ public class LoggerTest {
 
     @Test
     public void test1(){
-        log.error("error");
+
         log.debug("debug");
         log.info("info");
     }
