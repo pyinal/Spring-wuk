@@ -1,0 +1,5 @@
+2018-03-21 01:27:26,039 - Duplicate entry '18' for key 'uqe_category_type'
+2018-03-21 09:01:49,010 - Unknown column 'productinf0_.product_icon' in 'field list'
+2018-03-21 09:03:46,120 - Unknown column 'productinf0_.product_status' in 'field list'
+2018-03-21 09:12:09,215 - Column 'product_status' cannot be null
+2018-03-21 09:12:09,239 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
