@@ -1,2 +1,2 @@
 # Spring-wuk
-a spring test demo
+a spring boot test demo
