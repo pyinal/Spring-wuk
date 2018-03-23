@@ -1,0 +1,251 @@
+2018-03-22 10:48:21,424 - Starting OrderMasterRepositoryTest on Mypc with PID 6296 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 10:48:21,425 - No active profile set, falling back to default profiles: default
+2018-03-22 10:48:21,546 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5d99c6b5: startup date [Thu Mar 22 10:48:21 CST 2018]; root of context hierarchy
+2018-03-22 10:48:24,646 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9a4c8953] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 10:48:25,206 - HikariPool-1 - Starting...
+2018-03-22 10:48:25,633 - HikariPool-1 - Start completed.
+2018-03-22 10:48:25,727 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:48:25,765 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 10:48:25,971 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 10:48:25,973 - HHH000206: hibernate.properties not found
+2018-03-22 10:48:26,089 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 10:48:26,336 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 10:48:26,919 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.spring.wvk.dataobject.OrderMaster
+2018-03-22 10:48:26,919 - HikariPool-1 - Shutdown initiated...
+2018-03-22 10:48:26,931 - HikariPool-1 - Shutdown completed.
+2018-03-22 10:48:26,942 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-03-22 10:50:03,866 - Starting ProductCategoryRepositoryTest on Mypc with PID 7024 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 10:50:03,867 - No active profile set, falling back to default profiles: default
+2018-03-22 10:50:03,964 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7f8a9499: startup date [Thu Mar 22 10:50:03 CST 2018]; root of context hierarchy
+2018-03-22 10:50:06,561 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32417f05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 10:50:07,019 - HikariPool-1 - Starting...
+2018-03-22 10:50:07,479 - HikariPool-1 - Start completed.
+2018-03-22 10:50:07,582 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:50:07,631 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 10:50:07,832 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 10:50:07,835 - HHH000206: hibernate.properties not found
+2018-03-22 10:50:07,913 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 10:50:08,454 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 10:50:09,096 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.spring.wvk.dataobject.OrderMaster
+2018-03-22 10:50:09,097 - HikariPool-1 - Shutdown initiated...
+2018-03-22 10:50:09,106 - HikariPool-1 - Shutdown completed.
+2018-03-22 10:50:09,116 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-03-22 10:51:12,548 - Starting ProductCategoryRepositoryTest on Mypc with PID 6772 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 10:51:12,550 - No active profile set, falling back to default profiles: default
+2018-03-22 10:51:12,691 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a37aefe: startup date [Thu Mar 22 10:51:12 CST 2018]; root of context hierarchy
+2018-03-22 10:51:15,568 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae0bf703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 10:51:15,957 - HikariPool-1 - Starting...
+2018-03-22 10:51:16,326 - HikariPool-1 - Start completed.
+2018-03-22 10:51:16,413 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:51:16,443 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 10:51:16,611 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 10:51:16,617 - HHH000206: hibernate.properties not found
+2018-03-22 10:51:16,679 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 10:51:16,927 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 10:51:17,442 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.spring.wvk.dataobject.OrderMaster
+2018-03-22 10:51:17,442 - HikariPool-1 - Shutdown initiated...
+2018-03-22 10:51:17,450 - HikariPool-1 - Shutdown completed.
+2018-03-22 10:51:17,460 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-03-22 10:51:52,930 - Starting ProductCategoryRepositoryTest on Mypc with PID 4444 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 10:51:52,949 - No active profile set, falling back to default profiles: default
+2018-03-22 10:51:53,221 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7048f722: startup date [Thu Mar 22 10:51:53 CST 2018]; root of context hierarchy
+2018-03-22 10:51:56,787 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$876302d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 10:51:57,227 - HikariPool-1 - Starting...
+2018-03-22 10:51:57,723 - HikariPool-1 - Start completed.
+2018-03-22 10:51:57,824 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:51:57,916 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 10:51:58,180 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 10:51:58,185 - HHH000206: hibernate.properties not found
+2018-03-22 10:51:58,328 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 10:51:58,692 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 10:51:59,333 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.spring.wvk.dataobject.OrderMaster
+2018-03-22 10:51:59,333 - HikariPool-1 - Shutdown initiated...
+2018-03-22 10:51:59,344 - HikariPool-1 - Shutdown completed.
+2018-03-22 10:51:59,356 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-03-22 10:58:23,078 - Starting ProductCategoryRepositoryTest on Mypc with PID 6252 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 10:58:23,081 - No active profile set, falling back to default profiles: default
+2018-03-22 10:58:23,172 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@329a1243: startup date [Thu Mar 22 10:58:23 CST 2018]; root of context hierarchy
+2018-03-22 10:58:26,991 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$772c7fc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 10:58:27,527 - HikariPool-1 - Starting...
+2018-03-22 10:58:27,967 - HikariPool-1 - Start completed.
+2018-03-22 10:58:28,066 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:58:28,103 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 10:58:28,301 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 10:58:28,305 - HHH000206: hibernate.properties not found
+2018-03-22 10:58:28,403 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 10:58:28,750 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 10:58:30,139 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:58:33,892 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@329a1243: startup date [Thu Mar 22 10:58:23 CST 2018]; root of context hierarchy
+2018-03-22 10:58:34,014 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-22 10:58:34,126 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-22 10:58:34,135 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 10:58:34,137 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 10:58:34,247 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 10:58:34,247 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 10:58:34,463 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 10:58:35,194 - Started ProductCategoryRepositoryTest in 13.325 seconds (JVM running for 16.627)
+2018-03-22 10:58:35,644 - Closing org.springframework.web.context.support.GenericWebApplicationContext@329a1243: startup date [Thu Mar 22 10:58:23 CST 2018]; root of context hierarchy
+2018-03-22 10:58:35,652 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:58:35,653 - HikariPool-1 - Shutdown initiated...
+2018-03-22 10:58:35,670 - HikariPool-1 - Shutdown completed.
+2018-03-22 10:59:42,673 - Starting OrderMasterRepositoryTest on Mypc with PID 6148 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 10:59:42,698 - No active profile set, falling back to default profiles: default
+2018-03-22 10:59:42,849 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5d99c6b5: startup date [Thu Mar 22 10:59:42 CST 2018]; root of context hierarchy
+2018-03-22 10:59:45,237 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae0bf703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 10:59:45,658 - HikariPool-1 - Starting...
+2018-03-22 10:59:46,063 - HikariPool-1 - Start completed.
+2018-03-22 10:59:46,152 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:59:46,178 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 10:59:46,346 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 10:59:46,349 - HHH000206: hibernate.properties not found
+2018-03-22 10:59:46,408 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 10:59:46,668 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 10:59:48,039 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:59:50,442 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5d99c6b5: startup date [Thu Mar 22 10:59:42 CST 2018]; root of context hierarchy
+2018-03-22 10:59:50,541 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-22 10:59:50,620 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-22 10:59:50,631 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 10:59:50,632 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 10:59:50,764 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 10:59:50,764 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 10:59:50,833 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 10:59:51,308 - Started OrderMasterRepositoryTest in 9.998 seconds (JVM running for 12.278)
+2018-03-22 10:59:51,766 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5d99c6b5: startup date [Thu Mar 22 10:59:42 CST 2018]; root of context hierarchy
+2018-03-22 10:59:51,784 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 10:59:51,786 - HikariPool-1 - Shutdown initiated...
+2018-03-22 10:59:51,799 - HikariPool-1 - Shutdown completed.
+2018-03-22 11:00:49,092 - Starting OrderMasterRepositoryTest on Mypc with PID 3328 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 11:00:49,112 - No active profile set, falling back to default profiles: default
+2018-03-22 11:00:49,315 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4bf48f6: startup date [Thu Mar 22 11:00:49 CST 2018]; root of context hierarchy
+2018-03-22 11:00:52,041 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6994fa37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 11:00:52,412 - HikariPool-1 - Starting...
+2018-03-22 11:00:52,714 - HikariPool-1 - Start completed.
+2018-03-22 11:00:52,917 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:00:52,942 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 11:00:53,089 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 11:00:53,093 - HHH000206: hibernate.properties not found
+2018-03-22 11:00:53,152 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 11:00:53,393 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 11:00:54,718 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:00:57,257 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4bf48f6: startup date [Thu Mar 22 11:00:49 CST 2018]; root of context hierarchy
+2018-03-22 11:00:57,355 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-22 11:00:57,431 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-22 11:00:57,441 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 11:00:57,443 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 11:00:57,593 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:00:57,594 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:00:57,693 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:00:58,181 - Started OrderMasterRepositoryTest in 10.231 seconds (JVM running for 12.567)
+2018-03-22 11:00:58,544 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4bf48f6: startup date [Thu Mar 22 11:00:49 CST 2018]; root of context hierarchy
+2018-03-22 11:00:58,555 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:00:58,556 - HikariPool-1 - Shutdown initiated...
+2018-03-22 11:00:58,564 - HikariPool-1 - Shutdown completed.
+2018-03-22 11:07:47,771 - Starting OrderMasterRepositoryTest on Mypc with PID 4844 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 11:07:47,774 - No active profile set, falling back to default profiles: default
+2018-03-22 11:07:47,938 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1d572e62: startup date [Thu Mar 22 11:07:47 CST 2018]; root of context hierarchy
+2018-03-22 11:07:50,749 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79b73a5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 11:07:51,203 - HikariPool-1 - Starting...
+2018-03-22 11:07:51,657 - HikariPool-1 - Start completed.
+2018-03-22 11:07:51,753 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:07:51,787 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 11:07:51,957 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 11:07:51,960 - HHH000206: hibernate.properties not found
+2018-03-22 11:07:52,042 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 11:07:52,476 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 11:07:54,033 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:07:56,628 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1d572e62: startup date [Thu Mar 22 11:07:47 CST 2018]; root of context hierarchy
+2018-03-22 11:07:56,762 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-22 11:07:56,927 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-22 11:07:56,934 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 11:07:56,936 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 11:07:57,048 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:07:57,049 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:07:57,220 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:07:57,922 - Started OrderMasterRepositoryTest in 11.622 seconds (JVM running for 14.75)
+2018-03-22 11:07:58,266 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-22 11:10:37,944 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s186ms641µs318ns).
+2018-03-22 11:10:37,956 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1d572e62: startup date [Thu Mar 22 11:07:47 CST 2018]; root of context hierarchy
+2018-03-22 11:10:37,962 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:10:37,964 - HikariPool-1 - Shutdown initiated...
+2018-03-22 11:10:37,973 - HikariPool-1 - Shutdown completed.
+2018-03-22 11:16:47,074 - Starting OrderDetailRepositoryTest on Mypc with PID 5160 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 11:16:47,075 - No active profile set, falling back to default profiles: default
+2018-03-22 11:16:47,241 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Mar 22 11:16:47 CST 2018]; root of context hierarchy
+2018-03-22 11:16:49,644 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae0bf703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 11:16:50,141 - HikariPool-1 - Starting...
+2018-03-22 11:16:50,619 - HikariPool-1 - Start completed.
+2018-03-22 11:16:50,717 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:16:50,752 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 11:16:50,923 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 11:16:50,925 - HHH000206: hibernate.properties not found
+2018-03-22 11:16:50,991 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 11:16:51,218 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 11:16:52,525 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:16:54,742 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Mar 22 11:16:47 CST 2018]; root of context hierarchy
+2018-03-22 11:16:54,838 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-22 11:16:54,936 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-22 11:16:54,944 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 11:16:54,946 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 11:16:55,094 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:16:55,095 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:16:55,187 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:16:55,589 - Started OrderDetailRepositoryTest in 9.765 seconds (JVM running for 12.448)
+2018-03-22 11:16:55,994 - Closing org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Mar 22 11:16:47 CST 2018]; root of context hierarchy
+2018-03-22 11:16:56,002 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:16:56,004 - HikariPool-1 - Shutdown initiated...
+2018-03-22 11:16:56,019 - HikariPool-1 - Shutdown completed.
+2018-03-22 11:19:28,855 - Starting OrderDetailRepositoryTest on Mypc with PID 6436 (started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-22 11:19:28,857 - No active profile set, falling back to default profiles: default
+2018-03-22 11:19:28,937 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2fba3fc4: startup date [Thu Mar 22 11:19:28 CST 2018]; root of context hierarchy
+2018-03-22 11:19:32,000 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$efc69acd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-22 11:19:32,434 - HikariPool-1 - Starting...
+2018-03-22 11:19:32,829 - HikariPool-1 - Start completed.
+2018-03-22 11:19:32,924 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:19:32,958 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-22 11:19:33,128 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-22 11:19:33,130 - HHH000206: hibernate.properties not found
+2018-03-22 11:19:33,191 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-22 11:19:33,414 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-22 11:19:34,474 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:19:37,007 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2fba3fc4: startup date [Thu Mar 22 11:19:28 CST 2018]; root of context hierarchy
+2018-03-22 11:19:37,177 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-22 11:19:37,295 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-22 11:19:37,304 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 11:19:37,306 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 11:19:37,393 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:19:37,393 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:19:37,482 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 11:19:37,959 - Started OrderDetailRepositoryTest in 10.221 seconds (JVM running for 13.468)
+2018-03-22 11:19:38,238 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-22 11:19:38,584 - Closing org.springframework.web.context.support.GenericWebApplicationContext@2fba3fc4: startup date [Thu Mar 22 11:19:28 CST 2018]; root of context hierarchy
+2018-03-22 11:19:38,595 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-22 11:19:38,597 - HikariPool-1 - Shutdown initiated...
+2018-03-22 11:19:38,611 - HikariPool-1 - Shutdown completed.
