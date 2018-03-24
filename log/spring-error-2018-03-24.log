@@ -1,0 +1,4 @@
+2018-03-24 01:04:51,006 - 取消订单，订单状态不正确，orderId = 152181774410713762 orderStatus = 0
+2018-03-24 01:05:45,278 - 取消订单，订单状态不正确，orderId = 152181774410713762 orderStatus = 0
+2018-03-24 01:50:25,146 - 支付订单，订单状态不正确，orderId = 152181723299298287 orderStatus=2
+2018-03-24 01:51:15,164 - 支付订单，订单状态不正确，orderDTO=OrderDTO(orderId=152181723299298287, buyerName=小师傅, buyerPhone=12345678915, buyerAddress=青山路, buyerOpenid=123321, orderAmount=512.00, orderStatus=0, payStatus=0, createTime=2018-03-23 23:05:05.0, updateTime=2018-03-24 01:50:55.0, orderDetailList=[OrderDetail(detailId=152181723312469182, orderId=152181723299298287, productId=first, productName=老友粉, productPrice=16.00, productQuantity=32, productIcon=www.12306.com)])
