@@ -76,15 +76,18 @@ public class OrderServiceImp implements OrderService {
                 new CartDTO(e.getProductId(), e.getProductQuantity())).collect(Collectors.toList());
         productService.decreaseStock(cartDTOList);
 
-        return orderDTO;
+        return OrderMaster2OrderDTOConverter.convert(orderMaster);
     }
 
     @Override
     public OrderDTO findOne(String orderId) {
-        OrderMaster orderMaster = orderMasterRepository.findById(orderId).get();
-        if (orderMaster == null) {
+        OrderMaster orderMaster = new OrderMaster();
+        try {
+            orderMaster = orderMasterRepository.findById(orderId).get();
+        }catch (Exception e){
             throw new SellException(ResultEnum.ORDER_NOT_EXIT);
         }
+
 
         List<OrderDetail> orderDetailList = orderDetailRepository.findByOrderId(orderId);
         if (CollectionUtils.isEmpty(orderDetailList)) {
@@ -102,6 +105,13 @@ public class OrderServiceImp implements OrderService {
         Page<OrderMaster> orderMastersPage = orderMasterRepository.findByBuyerOpenid(buyerOpenid, pageable);
         List<OrderDTO> orderDTOList = OrderMaster2OrderDTOConverter.convert(orderMastersPage.getContent());
         return new PageImpl<OrderDTO>(orderDTOList, pageable, orderMastersPage.getTotalElements());
+    }
+
+    @Override
+    public Page<OrderDTO> findList(Pageable pageable) {
+        Page<OrderMaster> orderMasterPage = orderMasterRepository.findAll(pageable);
+        List<OrderDTO> orderDTOList = OrderMaster2OrderDTOConverter.convert(orderMasterPage.getContent());
+        return new PageImpl<>(orderDTOList, pageable, orderMasterPage.getTotalElements());
     }
 
     @Override
@@ -182,4 +192,6 @@ public class OrderServiceImp implements OrderService {
         }
         return orderDTO;
     }
+
+
 }

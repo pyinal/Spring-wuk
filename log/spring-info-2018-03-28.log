@@ -1,0 +1,747 @@
+2018-03-28 00:25:05,114 - Starting WvkApplication on Mypc with PID 7828 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 00:25:05,174 - No active profile set, falling back to default profiles: default
+2018-03-28 00:25:05,269 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65d09a04: startup date [Wed Mar 28 00:25:05 CST 2018]; root of context hierarchy
+2018-03-28 00:25:06,946 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 00:25:07,147 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4a70b72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 00:25:07,797 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 00:25:07,816 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 00:25:07,828 - Starting service [Tomcat]
+2018-03-28 00:25:07,828 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 00:25:07,834 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 00:25:08,016 - Initializing Spring embedded WebApplicationContext
+2018-03-28 00:25:08,016 - Root WebApplicationContext: initialization completed in 2747 ms
+2018-03-28 00:25:08,201 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 00:25:08,205 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 00:25:08,206 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 00:25:08,206 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 00:25:08,206 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 00:25:08,460 - HikariPool-1 - Starting...
+2018-03-28 00:25:08,657 - HikariPool-1 - Start completed.
+2018-03-28 00:25:08,847 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 00:25:08,867 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 00:25:08,981 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 00:25:08,982 - HHH000206: hibernate.properties not found
+2018-03-28 00:25:09,079 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 00:25:09,257 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 00:25:09,820 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 00:25:10,816 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65d09a04: startup date [Wed Mar 28 00:25:05 CST 2018]; root of context hierarchy
+2018-03-28 00:25:10,858 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 00:25:10,910 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 00:25:10,912 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 00:25:10,912 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 00:25:10,913 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 00:25:10,914 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 00:25:10,916 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:25:10,916 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:25:10,921 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 00:25:10,921 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 00:25:10,966 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:25:10,966 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:25:11,013 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:25:11,473 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 00:25:11,679 - Registering beans for JMX exposure on startup
+2018-03-28 00:25:11,680 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 00:25:11,691 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 00:25:11,709 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 00:25:11,724 - Using a shared selector for servlet write/read
+2018-03-28 00:25:11,745 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 00:25:11,747 - Started WvkApplication in 7.501 seconds (JVM running for 9.464)
+2018-03-28 00:26:00,801 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 00:26:00,801 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 00:26:00,831 - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-03-28 00:26:04,671 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 00:28:50,450 - Starting WvkApplication on Mypc with PID 7288 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 00:28:50,457 - No active profile set, falling back to default profiles: default
+2018-03-28 00:28:50,600 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 00:28:50 CST 2018]; root of context hierarchy
+2018-03-28 00:28:52,119 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 00:28:52,258 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$196ac0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 00:28:52,624 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 00:28:52,642 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 00:28:52,657 - Starting service [Tomcat]
+2018-03-28 00:28:52,657 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 00:28:52,662 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 00:28:52,817 - Initializing Spring embedded WebApplicationContext
+2018-03-28 00:28:52,817 - Root WebApplicationContext: initialization completed in 2217 ms
+2018-03-28 00:28:52,969 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 00:28:52,976 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 00:28:52,976 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 00:28:52,977 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 00:28:52,977 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 00:28:53,148 - HikariPool-1 - Starting...
+2018-03-28 00:28:53,351 - HikariPool-1 - Start completed.
+2018-03-28 00:28:53,557 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 00:28:53,578 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 00:28:53,685 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 00:28:53,687 - HHH000206: hibernate.properties not found
+2018-03-28 00:28:53,732 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 00:28:53,872 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 00:28:54,389 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 00:28:55,302 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 00:28:50 CST 2018]; root of context hierarchy
+2018-03-28 00:28:55,336 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 00:28:55,381 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 00:28:55,382 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 00:28:55,382 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 00:28:55,382 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 00:28:55,383 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 00:28:55,384 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:28:55,385 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:28:55,389 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 00:28:55,389 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 00:28:55,429 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:28:55,429 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:28:55,472 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:28:55,748 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 00:28:55,880 - Registering beans for JMX exposure on startup
+2018-03-28 00:28:55,881 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 00:28:55,888 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 00:28:55,900 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 00:28:55,914 - Using a shared selector for servlet write/read
+2018-03-28 00:28:55,933 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 00:28:55,936 - Started WvkApplication in 6.814 seconds (JVM running for 8.142)
+2018-03-28 00:29:11,820 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 00:29:11,820 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 00:29:11,843 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-03-28 00:29:11,928 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 00:38:12,856 - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:476)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-28 00:57:30,913 - Starting WvkApplication on Mypc with PID 11040 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 00:57:30,923 - No active profile set, falling back to default profiles: default
+2018-03-28 00:57:31,029 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c1bbc4e: startup date [Wed Mar 28 00:57:31 CST 2018]; root of context hierarchy
+2018-03-28 00:57:32,423 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 00:57:32,562 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b167bc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 00:57:32,912 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 00:57:32,927 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 00:57:32,939 - Starting service [Tomcat]
+2018-03-28 00:57:32,939 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 00:57:32,944 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 00:57:33,088 - Initializing Spring embedded WebApplicationContext
+2018-03-28 00:57:33,088 - Root WebApplicationContext: initialization completed in 2059 ms
+2018-03-28 00:57:33,268 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 00:57:33,274 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 00:57:33,275 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 00:57:33,275 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 00:57:33,275 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 00:57:33,424 - HikariPool-1 - Starting...
+2018-03-28 00:57:33,623 - HikariPool-1 - Start completed.
+2018-03-28 00:57:33,770 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 00:57:33,788 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 00:57:33,901 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 00:57:33,903 - HHH000206: hibernate.properties not found
+2018-03-28 00:57:33,949 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 00:57:34,085 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 00:57:34,579 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 00:57:35,438 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c1bbc4e: startup date [Wed Mar 28 00:57:31 CST 2018]; root of context hierarchy
+2018-03-28 00:57:35,472 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 00:57:35,514 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 00:57:35,515 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 00:57:35,516 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 00:57:35,516 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 00:57:35,517 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 00:57:35,519 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:57:35,519 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:57:35,519 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 00:57:35,523 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 00:57:35,524 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 00:57:35,568 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:57:35,568 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:57:35,611 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 00:57:35,917 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 00:57:36,055 - Registering beans for JMX exposure on startup
+2018-03-28 00:57:36,056 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 00:57:36,062 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 00:57:36,075 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 00:57:36,089 - Using a shared selector for servlet write/read
+2018-03-28 00:57:36,107 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 00:57:36,110 - Started WvkApplication in 6.273 seconds (JVM running for 7.531)
+2018-03-28 00:58:09,917 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 00:58:09,917 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 00:58:09,940 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-03-28 00:58:10,079 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 01:09:41,726 - Starting WvkApplication on Mypc with PID 11188 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 01:09:41,732 - No active profile set, falling back to default profiles: default
+2018-03-28 01:09:41,835 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 01:09:41 CST 2018]; root of context hierarchy
+2018-03-28 01:09:43,409 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 01:09:43,558 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6105d4be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 01:09:43,925 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 01:09:43,940 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:09:43,952 - Starting service [Tomcat]
+2018-03-28 01:09:43,953 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 01:09:43,958 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 01:09:44,111 - Initializing Spring embedded WebApplicationContext
+2018-03-28 01:09:44,111 - Root WebApplicationContext: initialization completed in 2276 ms
+2018-03-28 01:09:44,302 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 01:09:44,308 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 01:09:44,308 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 01:09:44,308 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 01:09:44,308 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 01:09:44,462 - HikariPool-1 - Starting...
+2018-03-28 01:09:44,659 - HikariPool-1 - Start completed.
+2018-03-28 01:09:44,837 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:09:44,860 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 01:09:44,982 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 01:09:44,984 - HHH000206: hibernate.properties not found
+2018-03-28 01:09:45,030 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 01:09:45,190 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 01:09:45,698 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:09:46,638 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 01:09:41 CST 2018]; root of context hierarchy
+2018-03-28 01:09:46,676 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 01:09:46,721 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 01:09:46,722 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 01:09:46,723 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 01:09:46,723 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 01:09:46,724 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 01:09:46,725 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:09:46,726 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:09:46,726 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:09:46,730 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 01:09:46,730 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 01:09:46,769 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:09:46,769 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:09:46,833 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:09:47,131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 01:09:47,275 - Registering beans for JMX exposure on startup
+2018-03-28 01:09:47,277 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 01:09:47,283 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 01:09:47,295 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:09:47,309 - Using a shared selector for servlet write/read
+2018-03-28 01:09:47,328 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 01:09:47,330 - Started WvkApplication in 6.706 seconds (JVM running for 7.983)
+2018-03-28 01:09:54,702 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 01:09:54,702 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 01:09:54,726 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-03-28 01:09:54,871 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 01:12:04,234 - Starting WvkApplication on Mypc with PID 7156 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 01:12:04,241 - No active profile set, falling back to default profiles: default
+2018-03-28 01:12:04,407 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 01:12:04 CST 2018]; root of context hierarchy
+2018-03-28 01:12:05,624 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 01:12:05,782 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e220f4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 01:12:06,160 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 01:12:06,175 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:12:06,187 - Starting service [Tomcat]
+2018-03-28 01:12:06,187 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 01:12:06,192 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 01:12:06,337 - Initializing Spring embedded WebApplicationContext
+2018-03-28 01:12:06,337 - Root WebApplicationContext: initialization completed in 1930 ms
+2018-03-28 01:12:06,543 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 01:12:06,550 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 01:12:06,551 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 01:12:06,551 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 01:12:06,551 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 01:12:06,703 - HikariPool-1 - Starting...
+2018-03-28 01:12:06,888 - HikariPool-1 - Start completed.
+2018-03-28 01:12:07,060 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:12:07,078 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 01:12:07,193 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 01:12:07,195 - HHH000206: hibernate.properties not found
+2018-03-28 01:12:07,237 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 01:12:07,363 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 01:12:07,961 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:12:08,880 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 01:12:04 CST 2018]; root of context hierarchy
+2018-03-28 01:12:08,921 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 01:12:08,971 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 01:12:08,973 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 01:12:08,973 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 01:12:08,973 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 01:12:08,974 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 01:12:08,976 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:12:08,976 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:12:08,976 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:12:08,979 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 01:12:08,980 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 01:12:09,027 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:12:09,028 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:12:09,080 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:12:09,397 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 01:12:09,542 - Registering beans for JMX exposure on startup
+2018-03-28 01:12:09,544 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 01:12:09,550 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 01:12:09,562 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:12:09,576 - Using a shared selector for servlet write/read
+2018-03-28 01:12:09,595 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 01:12:09,597 - Started WvkApplication in 6.505 seconds (JVM running for 8.384)
+2018-03-28 01:12:17,414 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 01:12:17,415 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 01:12:17,439 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-03-28 01:12:17,526 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 01:24:21,490 - Starting WvkApplication on Mypc with PID 10920 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 01:24:21,500 - No active profile set, falling back to default profiles: default
+2018-03-28 01:24:21,583 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38e79ae3: startup date [Wed Mar 28 01:24:21 CST 2018]; root of context hierarchy
+2018-03-28 01:24:22,818 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 01:24:22,961 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c51b8ad5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 01:24:23,352 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 01:24:23,370 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:24:23,386 - Starting service [Tomcat]
+2018-03-28 01:24:23,386 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 01:24:23,391 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 01:24:23,575 - Initializing Spring embedded WebApplicationContext
+2018-03-28 01:24:23,575 - Root WebApplicationContext: initialization completed in 1992 ms
+2018-03-28 01:24:23,813 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 01:24:23,821 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 01:24:23,821 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 01:24:23,821 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 01:24:23,821 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 01:24:24,052 - HikariPool-1 - Starting...
+2018-03-28 01:24:24,260 - HikariPool-1 - Start completed.
+2018-03-28 01:24:24,432 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:24:24,449 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 01:24:24,567 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 01:24:24,570 - HHH000206: hibernate.properties not found
+2018-03-28 01:24:24,616 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 01:24:24,749 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 01:24:25,343 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:24:26,265 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38e79ae3: startup date [Wed Mar 28 01:24:21 CST 2018]; root of context hierarchy
+2018-03-28 01:24:26,300 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 01:24:26,346 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 01:24:26,347 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 01:24:26,347 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 01:24:26,348 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 01:24:26,348 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 01:24:26,350 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:24:26,350 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:24:26,350 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:24:26,354 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 01:24:26,355 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 01:24:26,395 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:24:26,395 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:24:26,439 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:24:26,812 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 01:24:26,949 - Registering beans for JMX exposure on startup
+2018-03-28 01:24:26,950 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 01:24:26,956 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 01:24:26,969 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:24:26,985 - Using a shared selector for servlet write/read
+2018-03-28 01:24:27,004 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 01:24:27,006 - Started WvkApplication in 6.666 seconds (JVM running for 8.305)
+2018-03-28 01:24:33,064 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 01:24:33,064 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 01:24:33,090 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-03-28 01:24:33,229 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 01:36:55,391 - Starting WvkApplication on Mypc with PID 9152 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 01:36:55,397 - No active profile set, falling back to default profiles: default
+2018-03-28 01:36:55,491 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@367ffa75: startup date [Wed Mar 28 01:36:55 CST 2018]; root of context hierarchy
+2018-03-28 01:36:56,736 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 01:36:56,878 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5d38628] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 01:36:57,223 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 01:36:57,239 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:36:57,254 - Starting service [Tomcat]
+2018-03-28 01:36:57,254 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 01:36:57,259 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 01:36:57,427 - Initializing Spring embedded WebApplicationContext
+2018-03-28 01:36:57,427 - Root WebApplicationContext: initialization completed in 1936 ms
+2018-03-28 01:36:57,634 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 01:36:57,643 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 01:36:57,644 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 01:36:57,644 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 01:36:57,644 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 01:36:57,792 - HikariPool-1 - Starting...
+2018-03-28 01:36:58,005 - HikariPool-1 - Start completed.
+2018-03-28 01:36:58,206 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:36:58,229 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 01:36:58,306 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 01:36:58,308 - HHH000206: hibernate.properties not found
+2018-03-28 01:36:58,350 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 01:36:58,505 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 01:36:59,056 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 01:37:00,048 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@367ffa75: startup date [Wed Mar 28 01:36:55 CST 2018]; root of context hierarchy
+2018-03-28 01:37:00,094 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 01:37:00,150 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 01:37:00,151 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 01:37:00,152 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 01:37:00,152 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 01:37:00,153 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 01:37:00,157 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:37:00,157 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:37:00,158 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:37:00,158 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 01:37:00,163 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 01:37:00,165 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 01:37:00,217 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:37:00,218 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:37:00,304 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 01:37:00,628 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 01:37:00,764 - Registering beans for JMX exposure on startup
+2018-03-28 01:37:00,765 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 01:37:00,771 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 01:37:00,784 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 01:37:00,798 - Using a shared selector for servlet write/read
+2018-03-28 01:37:00,816 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 01:37:00,819 - Started WvkApplication in 6.507 seconds (JVM running for 7.697)
+2018-03-28 01:37:14,078 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 01:37:14,079 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 01:37:14,104 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-03-28 01:37:14,198 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 20:31:19,745 - Starting WvkApplication on Mypc with PID 7384 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 20:31:19,784 - No active profile set, falling back to default profiles: default
+2018-03-28 20:31:19,835 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 20:31:19 CST 2018]; root of context hierarchy
+2018-03-28 20:31:21,482 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 20:31:21,660 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86f8dfec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 20:31:22,307 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 20:31:22,327 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 20:31:22,351 - Starting service [Tomcat]
+2018-03-28 20:31:22,351 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 20:31:22,366 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 20:31:22,533 - Initializing Spring embedded WebApplicationContext
+2018-03-28 20:31:22,533 - Root WebApplicationContext: initialization completed in 2698 ms
+2018-03-28 20:31:22,867 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 20:31:22,875 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 20:31:22,876 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 20:31:22,876 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 20:31:22,876 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 20:31:23,174 - HikariPool-1 - Starting...
+2018-03-28 20:31:23,486 - HikariPool-1 - Start completed.
+2018-03-28 20:31:23,686 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 20:31:23,749 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 20:31:23,887 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 20:31:23,888 - HHH000206: hibernate.properties not found
+2018-03-28 20:31:24,008 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 20:31:24,292 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 20:31:24,903 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 20:31:25,878 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 20:31:19 CST 2018]; root of context hierarchy
+2018-03-28 20:31:25,914 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 20:31:25,978 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 20:31:25,979 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 20:31:25,979 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 20:31:25,979 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 20:31:25,980 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 20:31:25,981 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 20:31:25,982 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 20:31:25,983 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 20:31:25,983 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 20:31:25,983 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 20:31:25,987 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 20:31:25,988 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 20:31:26,045 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 20:31:26,045 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 20:31:26,112 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 20:31:26,534 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 20:31:26,707 - Registering beans for JMX exposure on startup
+2018-03-28 20:31:26,708 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 20:31:26,714 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 20:31:26,743 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 20:31:26,787 - Using a shared selector for servlet write/read
+2018-03-28 20:31:26,809 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 20:31:26,817 - Started WvkApplication in 7.92 seconds (JVM running for 10.975)
+2018-03-28 20:31:51,838 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 20:31:51,839 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 20:31:51,878 - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2018-03-28 20:31:52,017 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 21:21:20,126 - Starting WvkApplication on Mypc with PID 9008 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 21:21:20,133 - No active profile set, falling back to default profiles: default
+2018-03-28 21:21:20,221 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 21:21:20 CST 2018]; root of context hierarchy
+2018-03-28 21:21:21,672 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 21:21:21,819 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a2b9f29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 21:21:22,421 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 21:21:22,447 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:21:22,463 - Starting service [Tomcat]
+2018-03-28 21:21:22,463 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 21:21:22,514 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 21:21:22,690 - Initializing Spring embedded WebApplicationContext
+2018-03-28 21:21:22,690 - Root WebApplicationContext: initialization completed in 2470 ms
+2018-03-28 21:21:22,872 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 21:21:22,877 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 21:21:22,878 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 21:21:22,878 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 21:21:22,878 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 21:21:23,184 - HikariPool-1 - Starting...
+2018-03-28 21:21:23,459 - HikariPool-1 - Start completed.
+2018-03-28 21:21:23,520 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:21:23,535 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 21:21:24,150 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 21:21:24,152 - HHH000206: hibernate.properties not found
+2018-03-28 21:21:24,395 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 21:21:24,870 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 21:21:25,548 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:21:26,803 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 21:21:20 CST 2018]; root of context hierarchy
+2018-03-28 21:21:26,839 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 21:21:26,909 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 21:21:26,910 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 21:21:26,910 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 21:21:26,910 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 21:21:26,911 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 21:21:26,913 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,913 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,914 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,915 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,916 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,916 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,916 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:21:26,920 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 21:21:26,920 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 21:21:26,967 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:21:26,967 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:21:27,025 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:21:27,440 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 21:21:27,597 - Registering beans for JMX exposure on startup
+2018-03-28 21:21:27,598 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 21:21:27,605 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 21:21:27,630 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:21:27,676 - Using a shared selector for servlet write/read
+2018-03-28 21:21:27,713 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 21:21:27,715 - Started WvkApplication in 8.579 seconds (JVM running for 10.673)
+2018-03-28 21:21:29,003 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 21:21:29,003 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 21:21:29,025 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-03-28 21:21:29,119 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 21:22:37,285 - Starting WvkApplication on Mypc with PID 8644 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 21:22:37,291 - No active profile set, falling back to default profiles: default
+2018-03-28 21:22:37,450 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3857f613: startup date [Wed Mar 28 21:22:37 CST 2018]; root of context hierarchy
+2018-03-28 21:22:38,952 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 21:22:39,091 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a6feae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 21:22:39,481 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 21:22:39,499 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:22:39,514 - Starting service [Tomcat]
+2018-03-28 21:22:39,515 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 21:22:39,520 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 21:22:39,728 - Initializing Spring embedded WebApplicationContext
+2018-03-28 21:22:39,729 - Root WebApplicationContext: initialization completed in 2279 ms
+2018-03-28 21:22:39,959 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 21:22:39,964 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 21:22:39,964 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 21:22:39,964 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 21:22:39,964 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 21:22:40,129 - HikariPool-1 - Starting...
+2018-03-28 21:22:40,333 - HikariPool-1 - Start completed.
+2018-03-28 21:22:40,500 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:22:40,518 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 21:22:40,647 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 21:22:40,649 - HHH000206: hibernate.properties not found
+2018-03-28 21:22:40,701 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 21:22:40,836 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 21:22:41,361 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:22:42,233 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3857f613: startup date [Wed Mar 28 21:22:37 CST 2018]; root of context hierarchy
+2018-03-28 21:22:42,268 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 21:22:42,310 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 21:22:42,311 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 21:22:42,312 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 21:22:42,312 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 21:22:42,313 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 21:22:42,314 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,314 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,315 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,316 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,317 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,317 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,317 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:22:42,321 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 21:22:42,322 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 21:22:42,364 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:22:42,365 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:22:42,409 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:22:42,744 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 21:22:42,878 - Registering beans for JMX exposure on startup
+2018-03-28 21:22:42,879 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 21:22:42,885 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 21:22:42,898 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:22:42,912 - Using a shared selector for servlet write/read
+2018-03-28 21:22:42,930 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 21:22:42,933 - Started WvkApplication in 6.903 seconds (JVM running for 8.186)
+2018-03-28 21:23:20,120 - Starting WvkApplication on Mypc with PID 8964 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 21:23:20,127 - No active profile set, falling back to default profiles: default
+2018-03-28 21:23:20,201 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 21:23:20 CST 2018]; root of context hierarchy
+2018-03-28 21:23:21,606 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 21:23:21,747 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6105d4be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 21:23:22,143 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 21:23:22,162 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:23:22,179 - Starting service [Tomcat]
+2018-03-28 21:23:22,179 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 21:23:22,185 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 21:23:22,385 - Initializing Spring embedded WebApplicationContext
+2018-03-28 21:23:22,387 - Root WebApplicationContext: initialization completed in 2186 ms
+2018-03-28 21:23:22,625 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 21:23:22,635 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 21:23:22,636 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 21:23:22,636 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 21:23:22,636 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 21:23:22,907 - HikariPool-1 - Starting...
+2018-03-28 21:23:23,155 - HikariPool-1 - Start completed.
+2018-03-28 21:23:23,356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:23:23,390 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 21:23:23,493 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 21:23:23,495 - HHH000206: hibernate.properties not found
+2018-03-28 21:23:23,538 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 21:23:23,746 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 21:23:24,262 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:23:25,173 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d1c00d0: startup date [Wed Mar 28 21:23:20 CST 2018]; root of context hierarchy
+2018-03-28 21:23:25,209 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 21:23:25,261 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 21:23:25,263 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 21:23:25,265 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 21:23:25,265 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 21:23:25,266 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 21:23:25,268 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,268 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,269 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,270 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,271 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,271 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,271 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:23:25,275 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 21:23:25,276 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 21:23:25,320 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:23:25,321 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:23:25,366 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:23:25,713 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 21:23:25,869 - Registering beans for JMX exposure on startup
+2018-03-28 21:23:25,870 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 21:23:25,877 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 21:23:25,895 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:23:25,912 - Using a shared selector for servlet write/read
+2018-03-28 21:23:25,952 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 21:23:25,954 - Started WvkApplication in 7.025 seconds (JVM running for 8.362)
+2018-03-28 21:23:26,527 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 21:23:26,527 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 21:23:26,555 - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-03-28 21:23:26,657 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 21:49:18,926 - Starting WvkApplication on Mypc with PID 8364 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 21:49:18,933 - No active profile set, falling back to default profiles: default
+2018-03-28 21:49:19,013 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aebe890: startup date [Wed Mar 28 21:49:19 CST 2018]; root of context hierarchy
+2018-03-28 21:49:20,288 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 21:49:20,460 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb7d904a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 21:49:20,879 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 21:49:20,895 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:49:20,906 - Starting service [Tomcat]
+2018-03-28 21:49:20,907 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 21:49:20,912 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 21:49:21,073 - Initializing Spring embedded WebApplicationContext
+2018-03-28 21:49:21,073 - Root WebApplicationContext: initialization completed in 2061 ms
+2018-03-28 21:49:21,279 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 21:49:21,285 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 21:49:21,285 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 21:49:21,285 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 21:49:21,286 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 21:49:21,436 - HikariPool-1 - Starting...
+2018-03-28 21:49:21,639 - HikariPool-1 - Start completed.
+2018-03-28 21:49:21,834 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:49:21,863 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 21:49:22,000 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 21:49:22,003 - HHH000206: hibernate.properties not found
+2018-03-28 21:49:22,072 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 21:49:22,238 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 21:49:22,749 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 21:49:23,736 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aebe890: startup date [Wed Mar 28 21:49:19 CST 2018]; root of context hierarchy
+2018-03-28 21:49:23,772 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 21:49:23,815 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 21:49:23,816 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 21:49:23,817 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 21:49:23,817 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 21:49:23,819 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 21:49:23,821 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,821 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,822 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,822 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,824 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,825 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,825 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,826 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 21:49:23,830 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 21:49:23,831 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 21:49:23,889 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:49:23,889 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:49:23,985 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 21:49:24,300 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 21:49:24,442 - Registering beans for JMX exposure on startup
+2018-03-28 21:49:24,443 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 21:49:24,449 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 21:49:24,461 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 21:49:24,475 - Using a shared selector for servlet write/read
+2018-03-28 21:49:24,494 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 21:49:24,496 - Started WvkApplication in 6.817 seconds (JVM running for 8.217)
+2018-03-28 21:49:26,154 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 21:49:26,154 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 21:49:26,176 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-03-28 21:49:26,257 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 22:28:22,088 - Starting WvkApplication on Mypc with PID 8868 (F:\IDE\IntelliJ\workplace\target\classes started by admin in F:\IDE\IntelliJ\workplace)
+2018-03-28 22:28:22,103 - No active profile set, falling back to default profiles: default
+2018-03-28 22:28:22,177 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@24313fcc: startup date [Wed Mar 28 22:28:22 CST 2018]; root of context hierarchy
+2018-03-28 22:28:23,552 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-28 22:28:23,707 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4104525] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-28 22:28:24,093 - Tomcat initialized with port(s): 8080 (http)
+2018-03-28 22:28:24,108 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-28 22:28:24,119 - Starting service [Tomcat]
+2018-03-28 22:28:24,119 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-28 22:28:24,124 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\cocos\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\cocos\cocos2d-x-3.12\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\cocos\Java\jre\bin;E:\cocos\Java\bin;E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\bin;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\adt\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;F:\crack\tools;F:\crack\web;F:\GnuWin32\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\git\Git\cmd;E:\Inter software\pythom36\Scripts;E:\Inter software\pythom36;E:\cocos\cocos2d-x-3.12\templates;E:\cocos;\tools\cocos2d-console\bin;\cocos2d-x-3.12\tools\cocos2d-console\bin;E:\Inter software\Fiddler2;C:\Program Files\MySQL\MySQL Server 5.7\bin;F:\bettercap\go\bin;F:\bettercap\dependence\bin;F:\bettercap\dependence\x86_64-w64-mingw32\bin;F:\bettercap\git\Git\bin;.]
+2018-03-28 22:28:24,268 - Initializing Spring embedded WebApplicationContext
+2018-03-28 22:28:24,269 - Root WebApplicationContext: initialization completed in 2092 ms
+2018-03-28 22:28:24,481 - Servlet dispatcherServlet mapped to [/]
+2018-03-28 22:28:24,487 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 22:28:24,487 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 22:28:24,487 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 22:28:24,488 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 22:28:24,659 - HikariPool-1 - Starting...
+2018-03-28 22:28:24,885 - HikariPool-1 - Start completed.
+2018-03-28 22:28:25,066 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 22:28:25,084 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 22:28:25,190 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-28 22:28:25,192 - HHH000206: hibernate.properties not found
+2018-03-28 22:28:25,236 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 22:28:25,401 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 22:28:25,919 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 22:28:26,897 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@24313fcc: startup date [Wed Mar 28 22:28:22 CST 2018]; root of context hierarchy
+2018-03-28 22:28:26,931 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 22:28:26,977 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.spring.wvk.controller.BuyerOrderController.create(com.spring.wvk.form.OrderForm,org.springframework.validation.BindingResult)
+2018-03-28 22:28:26,978 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<java.util.List<com.spring.wvk.dto.OrderDTO>> com.spring.wvk.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-03-28 22:28:26,978 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-03-28 22:28:26,978 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO<com.spring.wvk.dto.OrderDTO> com.spring.wvk.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-03-28 22:28:26,979 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.spring.wvk.VO.ResultVO com.spring.wvk.controller.BuyerProductController.list()
+2018-03-28 22:28:26,981 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,982 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,983 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,983 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,985 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,985 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,986 - Mapped "{[/seller/order/detail],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,986 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.spring.wvk.controller.SellOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-03-28 22:28:26,990 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 22:28:26,991 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 22:28:27,030 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 22:28:27,030 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 22:28:27,073 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 22:28:27,396 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 22:28:27,539 - Registering beans for JMX exposure on startup
+2018-03-28 22:28:27,541 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-28 22:28:27,547 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-28 22:28:27,562 - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-28 22:28:27,576 - Using a shared selector for servlet write/read
+2018-03-28 22:28:27,594 - Tomcat started on port(s): 8080 (http) with context path '/spring'
+2018-03-28 22:28:27,597 - Started WvkApplication in 6.736 seconds (JVM running for 9.032)
+2018-03-28 22:28:38,481 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 22:28:38,482 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 22:28:38,506 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-03-28 22:28:38,592 - HHH000397: Using ASTQueryTranslatorFactory

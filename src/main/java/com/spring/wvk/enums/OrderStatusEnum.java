@@ -3,7 +3,7 @@ package com.spring.wvk.enums;
 import lombok.Getter;
 
 @Getter
-public enum OrderStatusEnum {
+public enum OrderStatusEnum implements CodeEnum{
     NEW(0,"新订单"),
     FINISHED(1,"完结"),
     CANCLE(2,"已取消"),
